@@ -135,6 +135,9 @@ ISSUE2 = {
     "note": None,
 }
 
+# Resolved 21 August 2026: a separate DOI (10.70785/YXPK4581) was registered for Issue 2
+# Article A2, so the two articles no longer share 10.70785/SGRB9022. DUP_NOTE is kept for
+# the record only and is no longer used by any article.
 DUP_NOTE = ("Article DOI pending correction. The FULGME DOI archive currently assigns "
             "10.70785/SGRB9022 to two different articles in this issue. A DOI must identify "
             "exactly one work, so no article DOI is published on this page until the duplicate "
@@ -186,7 +189,7 @@ I2_ARTICLES = [
  "authors": [{"name": "Barbara Gohre, BSHA, CHPM, CLSSBB", "aff": 1}],
  "affiliations": ["Phoenix Children&rsquo;s; FULGME"],
  "cite_authors": "Gohre B",
- "doi": None, "doi_note": DUP_NOTE,
+ "doi": "10.70785/YXPK4581",
  "pdf": None, "full_text_url": None,
  "abstract_structured": None,
  "abstract_plain": "Burnout among medical trainees is a significant challenge in Graduate Medical Education (GME), affecting patient safety, resident retention, and institutional success. This article reviews literature on burnout prevalence, its impact, and evidence-based interventions. Structured wellness programs, reduced administrative burdens, and fostering psychological safety can improve well-being metrics in residency and fellowship programs.",
@@ -259,7 +262,7 @@ I2_ARTICLES = [
  "authors": [{"name": "Pamela Furneaux, MHA", "aff": 1}],
  "affiliations": ["Mayo Clinic, Jacksonville, Florida; FULGME"],
  "cite_authors": "Furneaux P",
- "doi": None, "doi_note": DUP_NOTE,
+ "doi": "10.70785/SGRB9022",
  "pdf": None, "full_text_url": None,
  "abstract_structured": None,
  "abstract_plain": "When tasked with reflecting on what makes an exemplary Education Program Coordinator (EPC), I was immediately struck by the question: &ldquo;according to whom?&rdquo;. The role of an EPC is complex, multifaceted, and deeply intertwined with the success of the educational program and its stakeholders. While this role may appear straightforward, its uniqueness lies in its relationships with faculty, staff, and program directors, as well as the impact it has on the functioning and success of graduate medical education (GME). To provide a more thoughtful perspective, I turned to my own journey as an EPC at Mayo Clinic and the lessons learned along the way.",
