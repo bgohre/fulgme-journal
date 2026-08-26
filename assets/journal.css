@@ -212,13 +212,16 @@ details.guide > *:last-child{margin-bottom:1rem}
 @media (prefers-reduced-motion:reduce){details.guide summary::before{transition:none}}
 
 /* Link back to the organisation site */
-.uplink{margin-left:auto;font-size:.82rem;font-weight:600;letter-spacing:.02em;color:#D6E2EC;
-  text-decoration:none;white-space:nowrap;padding:.2rem .1rem;border-bottom:1px solid transparent}
-.uplink span{margin-left:.28rem;font-size:.9em}
-.uplink:hover{color:#fff;border-bottom-color:var(--gold)}
-.uplink:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.uplink{margin-left:auto;display:inline-flex;align-items:center;white-space:nowrap;
+  font-size:.8rem;font-weight:700;letter-spacing:.02em;text-decoration:none;
+  padding:.4rem .82rem;border-radius:999px;border:1.5px solid var(--gold);
+  background:rgba(255,255,255,.10);color:#fff}
+.uplink span{margin-left:.35rem;font-size:.92em}
+.uplink:hover{background:var(--gold);border-color:var(--gold);color:var(--blue)}
+.uplink:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .jbar .meta{margin-left:1.1rem}
-.hnav .uplink{margin-left:auto;color:var(--slate)}
-.hnav .uplink:hover{color:var(--blue);border-bottom-color:var(--gold)}
+.hnav .uplink{margin-left:auto;padding:.4rem .82rem;color:var(--blue);background:#FFFBF0;
+  border:1.5px solid var(--gold-dark)}
+.hnav .uplink:hover{background:var(--gold);color:var(--blue);border-color:var(--gold-dark)}
 @media (max-width:560px){.uplink{margin-left:0}.jbar .meta{margin-left:0}}
 @media print{.uplink{display:none}}

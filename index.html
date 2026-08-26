@@ -76,11 +76,14 @@ footer p{margin:0 0 .4rem}
 @media (max-width:560px){.mastlogo{width:84px}}
 @media print{.mastlogo{box-shadow:none;border:1px solid #999}}
 
-.uplink span{margin-left:.3rem;font-size:.9em}
-.hnav .uplink{margin-left:auto}
-.actions .uplink{font-size:.82rem;font-weight:600;color:#D6E2EC;text-decoration:none;white-space:nowrap;
-  border-bottom:1px solid transparent}
-.actions .uplink:hover{color:#fff;border-bottom-color:var(--gold)}
+.uplink{display:inline-flex;align-items:center;white-space:nowrap;font-size:.8rem;font-weight:700;
+  letter-spacing:.02em;text-decoration:none;padding:.4rem .82rem;border-radius:999px}
+.uplink span{margin-left:.35rem;font-size:.92em}
+.hnav .wrap{align-items:center}
+.hnav .uplink{margin-left:auto;padding:.4rem .82rem;color:var(--blue);background:#FFFBF0;
+  border:1.5px solid var(--gold-dark);border-bottom:1.5px solid var(--gold-dark)}
+.hnav .uplink:hover{background:var(--gold);color:var(--blue);border-color:var(--gold-dark)}
+@media (max-width:560px){.hnav .uplink{margin-left:0;margin-top:.15rem}}
 @media print{.uplink{display:none}}
 </style>
 <link rel="icon" href="assets/favicon.ico" sizes="any">
@@ -116,7 +119,7 @@ footer p{margin:0 0 .4rem}
     <a href="editorial-board/">Editorial Board</a>
     <a href="policies/">Policies</a>
     <a href="for-authors/">For Authors</a>
-    <a class="uplink" href="https://www.fulgme.org">FULGME.org<span aria-hidden="true">&#8599;</span></a>
+    <a class="uplink" href="https://www.fulgme.org">Visit FULGME.org<span aria-hidden="true">&#8599;</span></a>
   </div>
 </nav>
 
