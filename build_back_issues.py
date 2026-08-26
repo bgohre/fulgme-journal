@@ -131,6 +131,7 @@ def issue_page(ISSUE, ARTICLES):
 <div class="jbar">
   <div class="wrap iwrap">
     <a class="brand" href="../"><img class="blogo" src="../assets/fulgme-mark.png" alt="" width="91" height="94" decoding="async"><span>FULGME<span class="tm">TM</span> Journal</span></a>
+    <a class="uplink" href="https://www.fulgme.org">FULGME.org<span aria-hidden="true">&#8599;</span></a>
     <span class="meta">{ISSUE["label"]} &middot; {ISSUE["published"]}</span>
   </div>
 </div>

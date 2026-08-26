@@ -210,3 +210,15 @@ details.guide summary:hover{color:var(--blue-accent)}
 details.guide summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
 details.guide > *:last-child{margin-bottom:1rem}
 @media (prefers-reduced-motion:reduce){details.guide summary::before{transition:none}}
+
+/* Link back to the organisation site */
+.uplink{margin-left:auto;font-size:.82rem;font-weight:600;letter-spacing:.02em;color:#D6E2EC;
+  text-decoration:none;white-space:nowrap;padding:.2rem .1rem;border-bottom:1px solid transparent}
+.uplink span{margin-left:.28rem;font-size:.9em}
+.uplink:hover{color:#fff;border-bottom-color:var(--gold)}
+.uplink:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.jbar .meta{margin-left:1.1rem}
+.hnav .uplink{margin-left:auto;color:var(--slate)}
+.hnav .uplink:hover{color:var(--blue);border-bottom-color:var(--gold)}
+@media (max-width:560px){.uplink{margin-left:0}.jbar .meta{margin-left:0}}
+@media print{.uplink{display:none}}
